@@ -4,7 +4,7 @@ import cors from 'cors'
 import dotenv from 'dotenv'
 dotenv.config();
 const PORT = process.env.PORT || 4040
-import ConnectDb from '../server/config/db.js'
+import ConnectDb from './config/db.js'
 import routes from './routes/index.js'
 
 
